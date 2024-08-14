@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 30px;
+  height: 600px;
+  /* width: 780px; */
+  background-image: url("assets/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fix-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  width: 500px;
+  /* width: 100%; */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px 20px;
+  border: 1px solid #0F1035;
+}
+
+#search_input {
+  flex: 1;
+  height: 40px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  color: #333;
+  padding: 5px 20px;
+}
+
+.search_Icon {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+::placeholder {
+  color: #555;
+}
+
+
+.btn_Temperature {
+  position: relative;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #0F1035;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+#btn_heart {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+#btn_heart svg:hover {
+  cursor: pointer;
+}
+
+#btn_dropdownMenu {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+#location-container {
+  width: 500px;
+  height: 50%;
+  border: 1px solid #808080;
+  border-radius: 15px;
+  margin-top: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+  background: inherit;
+  overflow: hidden;
+  position: absolute;
+  overflow-y: auto;
+}
+
+
+li {
+  padding: 10px 30px;
+  /* background-image: linear-gradient(#7298B0,#E5E4EA); */
+  background-color: #88A3B8;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+  cursor: pointer;
+}
+
+
+li:hover {
+  background-color: #ccd3d3;
+}
+
+#date {
+  font-size: 20px;
+  color: #0F1035;
+}
+
+.mainTemperature {
+  font-size: 100px;
+  color: #0F1035;
+}
+
+.max-min-temp {
+  color: #0F1035;
+}

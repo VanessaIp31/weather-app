@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weather</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="heart">
+      <button id="btn_heart" onclick="heart()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="#0F1035"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart">
+          <path
+            d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="search-box">
+      <div class="row" style="position: relative;">
+        <div class="search_Icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="#0F1035" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-search">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        </div>
+        <!-- <input id="search_input" type="text" placeholder="Select your location"> -->
+        <div id="search_input">
+          <!-- <span>長洲</span>
+          <span class="enName">Cheung Chau</span> -->
+          <span class="enName">Select your location</span>
+        </div>
+        <!-- <div class="autocomplete">
+        </div> -->
+        <button id="btn_dropdownMenu" onclick="toggleLocationList()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="#0F1035" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chevron-down">
+            <path d="m6 9 6 6 6-6" />
+          </svg>
+        </button>
+      </div>
+      <div id="location-container" hidden>
+        <ul id="location-options">
+          <!-- <li>Cheung Chau</li>
+        <li>Clear Water Bay</li>
+        <li>Hong Kong International Airport</li>
+        <li>Hong Kong Observatory</li>
+        <li>Hong Kong Park</li>
+        <li>Wong Chuk Hang</li>
+        <li>Happy Valley</li>
+        <li>Tseung Kwan O</li>
+        <li>Kowloon City</li>
+        <li>King's Park</li>
+        <li>Kau Sai Chau</li> -->
+          <!-- <li>
+          <p>長洲</p>
+          <p class = "enName">Cheung Chau</p>
+        </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- <select name="" id="">
+      <option value="SelectYourLocation">Select your location</option>
+      <option value="Wong-Chuk-Hang">Wong Chuk Hang</option>
+      <option value="Victoria">Peak</option>
+    </select> -->
+
+    <!-- <div class="result_box">
+      <ul>
+        <li>WCH</li>
+      </ul>
+
+    </div> -->
+    <!-- </div  / °F> -->
+
+    <div class="changeTemperature">
+      <button class="btn_Temperature tempUnit" onclick="changeTempUnit()">°C</button>
+    </div>
+  </div>
+
+  <main>
+    <div id="date">Date</div>
+
+    <div>
+      <span id="temperature" class="mainTemperature">75</span><span class="tempUnit mainTemperature">°C</span>
+    </div>
+
+    <div class="weather">
+      <div>
+        <span class="max-min-temp">H:</span>
+        <span id="min-temp" class="max-min-temp">75</span><span class="max-min-temp tempUnit">°C</span>
+      </div>
+      <div>
+        <span class="max-min-temp">L:</span>
+        <span id="max-temp" class="max-min-temp">75</span><span class="max-min-temp tempUnit">°C</span>
+      </div>
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

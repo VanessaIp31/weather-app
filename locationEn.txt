@@ -1,0 +1,39 @@
+CCH: Cheung Chau
+CWB: Clear Water Bay
+HKA: Hong Kong International Airport
+HKO: Hong Kong Observatory
+HKP: Hong Kong Park
+HKS: Wong Chuk Hang
+HPV: Happy Valley
+JKB: Tseung Kwan O
+KLT: Kowloon City
+KP: King's Park
+KSC: Kau Sai Chau
+KTG: Kwun Tong
+LFS: Lau Fau Shan
+NGP: Ngong Ping
+PEN: Peng Chau
+PLC: Tai Mei Tuk
+SE1: Kai Tak Runway Park
+SEK: Shek Kong
+SHA: Sha Tin
+SKG: Sai Kung
+SKW: Shau Kei Wan
+SSH: Sheung Shui
+SSP: Sham Shui Po
+STY: Stanley
+TC: Tate's Cairn
+TKL: Ta Kwu Ling
+TMS: Tai Mo Shan
+TPO: Tai Po (Conservation Studies Centre)
+TU1: Tuen Mun Children and Juvenile Home
+TW: Tsuen Wan Shing Mun Valley
+TWN: Tsuen Wan
+TY1: New Tsing Yi Station
+TYW: Pak Tam Chung (Tsak Yue Wu)
+VP1: The Peak
+WGL: Waglan Island
+WLP: Wetland Park
+WTS: Wong Tai Sin
+YCT: Tai Po (Yuan Chau Tsai Park)
+YLP: Yuen Long Park
